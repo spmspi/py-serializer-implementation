@@ -5,7 +5,6 @@ from rest_framework.renderers import JSONRenderer
 
 from car.models import Car
 from car.serializers import CarSerializer
-from car.views import CarSerializersView, CarDeserializersView
 
 
 def serialize_car_object(car: Car) -> bytes:
